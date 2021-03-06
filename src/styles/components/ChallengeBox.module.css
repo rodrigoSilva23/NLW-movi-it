@@ -1,0 +1,104 @@
+.ChallengeBoxContainer{
+    height:100%;
+    background:var(--white);
+    border-radius: 5px;
+    box-shadow: 0 0 60px rgba(0,0,0, 0.09) ;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ChallengeBoxNotActive strong{
+  font-size:  1.5rem;
+  line-height: 1.6rem;
+    
+
+}
+
+.ChallengeBoxNotActive div{
+    display: flex;
+    align-items: center;
+   text-align: left;
+   line-height: 1.3rem;
+   margin-top: 3rem;
+    
+
+}
+.ChallengeBoxNotActive div img{
+    width: 1.8rem;
+    margin-right: 1.5rem;
+    
+
+}
+
+.ChallengeBoxActive  {    
+    height:100%;
+
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+
+
+.ChallengeBoxActive header {
+
+    color: var(--blue);
+    font-weight: 600;
+    font-size:1.25rem;
+    padding:   1.5rem 3rem ;
+    border-bottom: 1px solid var(--gray-line);
+
+   
+
+}
+.ChallengeBoxActive main {
+    flex: 1;
+    margin-top: 2rem;
+}
+
+.ChallengeBoxActive main h1 {
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--title);
+}
+
+.ChallengeBoxActive main p {
+   line-height:1.25rem;
+}
+
+.ChallengeBoxActive footer {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1rem;
+ }
+
+ .ChallengeBoxActive footer button{
+    height: 3rem;
+
+    border: 0;
+    border-radius: 5px;
+
+    margin-bottom: 5rem;
+
+    color: var(--white);
+    font-weight: 600;
+    outline: none;
+
+    transition: filter 0.2s;
+    
+ }
+ .ChallengeBoxActive footer button:hover{
+     filter:brightness(0.9)
+ }
+ .ChallengeSucceededButton{
+     background:var(--green)
+ }
+
+ .ChallengeFailedButton{
+     background:var(--red)
+ }
