@@ -75,6 +75,7 @@
     display:grid;
     grid-template-columns: 1fr 1fr;
     gap:1rem;
+    padding: 0 10px;
  }
 
  .ChallengeBoxActive footer button{
@@ -84,12 +85,14 @@
     border-radius: 5px;
 
     margin-bottom: 5rem;
+    
 
     color: var(--white);
     font-weight: 600;
     outline: none;
 
     transition: filter 0.2s;
+
     
  }
  .ChallengeBoxActive footer button:hover{
@@ -101,4 +104,13 @@
 
  .ChallengeFailedButton{
      background:var(--red)
+ }
+
+ @media screen and (max-width:795px){
+    .ChallengeBoxActive footer {
+        
+        margin-top: 3rem;
+        margin-bottom: 0rem;
+     }
+
  }

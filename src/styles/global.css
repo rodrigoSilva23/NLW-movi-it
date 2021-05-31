@@ -24,8 +24,11 @@
 body{
     background:var(--background);
     color:var(--text);
+    height: 100%;
 }
-
+html{
+    height: 100%;
+}
 body,input,textarea,button{
     font: 400 1rem "Inter",sans-serif;
 }

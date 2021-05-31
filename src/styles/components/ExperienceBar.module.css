@@ -35,6 +35,7 @@
  span.currentExperience{
      position:absolute;
      top:8px;
+     left: 0;
      transform:translateX(-50%);
      
 

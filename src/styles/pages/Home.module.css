@@ -17,3 +17,21 @@
     align-content: center;
 
 }
+
+@media screen and (max-width:795px){
+ 
+    .container section{
+        flex: 1;
+        display: grid;
+        grid-template-columns: 12fr ;
+        grid-template-rows: 1fr 0.5fr;
+        
+        gap:3.25rem;
+        align-content: center;
+  }
+  
+  .container section div:nth-child(2){
+      margin-bottom: 2rem;
+     
+  }
+}
